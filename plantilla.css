@@ -1,0 +1,92 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+/*boton animado*/
+.button:hover {
+    background-color: #3e8e41
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button2 {
+    background-color: #008CBA;
+    cursor:grabbing;
+} /* Blue */
+.button3 {
+    background-color: #f44336;
+} /* Red */ 
+.button4 {
+    background-color: #e7e7e7; color: black;
+} /* Gray */ 
+.button5 {
+    background-color: #555555;
+} /* Black */
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.primero{
+    background-color: orange;
+    border:1px solid #000;
+}
+
+.segundo {
+    background-color: rgb(15, 173, 201);
+    height:400px;
+	border:1px solid #000;
+    margin: none;
+}
+
+header {
+    background-color: grey;
+    border:1px solid #000;
+    margin: none;
+}
+
+body {
+    background-color: grey;
+}
+
+.tercero{
+    background-color: white;
+    border:1px solid #000;
+    height:250px;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.hungary{
+    background-image: linear-gradient(red 33%, white 33% 66%, green 66%);
+    width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.spain{
+	background-image: linear-gradient(red 25%, yellow 25% 75%, red 75%);
+    width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
+.japon{
+	background-image:radial-gradient(circle, red 33%, white 33%, white);
+    width:300px;height:200px;margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+}
+
