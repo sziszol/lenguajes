@@ -40,13 +40,15 @@
 .primero{
     background-color: orange;
     border:1px solid #000;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .segundo {
-    background-color: rgb(15, 173, 201);
     height:400px;
-	border:1px solid #000;
+	border: 1px solid #000;
     margin: none;
+    background-color: transparent;
 }
 
 header {
@@ -60,14 +62,60 @@ body {
 }
 
 .tercero{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.705);
     border:1px solid #000;
     height:250px;
     margin: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;   
 }
+
+.mini {
+    background-color: orange;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.cuarto {
+    background-color: green;
+    height: 150px;
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quinto {
+    width:300px;
+    height:120px;
+    margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+    background-color: rgb(212, 42, 190);
+}
+
+.sexto {
+    width:600px;
+    height:120px;
+    margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+    background-color:rgb(212, 42, 190);
+}
+
+.septimo {
+    width:300px;
+    height:120px;
+    margin:20px;
+	display:inline-block;
+	border:1px solid #000;
+    background-color:rgb(212, 42, 190);
+}
+
 
 .hungary{
     background-image: linear-gradient(red 33%, white 33% 66%, green 66%);
