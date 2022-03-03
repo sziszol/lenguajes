@@ -1,0 +1,228 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:blueviolet;
+    display: inline-block;
+    font-size: 26px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .button2 {
+  background-color: #008CBA;
+  cursor:grabbing;
+  } /* Blue */
+  .button3 {
+  background-color: #f44336;
+  } /* Red */ 
+  .button4 {
+  background-color: #e7e7e7; color: black;
+  } /* Gray */ 
+  .button5 {
+  background-color: #555555;
+   /* Black */
+  }
+  button:hover {
+    background-color: #3e8e41
+  }
+  .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
+  .button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { 
+       border-collapse: collapse; 
+       border-spacing: 0; 
+}
+   td, th, caption { 
+       font-weight: normal;
+        text-align: left;
+     }
+   img, fieldset { 
+       border: 0; 
+    }
+   ol { 
+       padding-left: 1.4em; 
+       list-style: decimal;
+     }
+   ul { 
+       padding-left: 1.4em; 
+       list-style:square; 
+    }
+   q:before, q:after { 
+       content:''; 
+    }
+   
+   body {
+     font-size: 62.5%;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #002D4B;
+     background: #E1EEFD url(fotos/bg_body2.png) repeat-x;
+   }
+
+
+/*quitar subrayado de los enlaces y poner en negrita */
+a {
+    text-decoration:none;
+    font-weight: bold;
+    border-bottom: 2px solid #F60;
+}
+/*para vinculos visitados*/
+a:visited {
+    color: #6E97BF;
+}
+
+/* enlace cambie cuando pasemos el 
+ratón por encima*/
+a:hover {
+	color: #FFF; 
+	background-color: #6E97BF;
+	border-bottom:solid #6E97BF;
+}
+
+/*la 
+imagen no se
+ debe repetir y se colocará a la izquierda del texto. */
+#legal {
+    color: #666666;
+    background-image: url(fotos/email.gif);
+    background-repeat:no-repeat;
+    background-position-x: 250px;
+	background-position-y: 10px;
+    border-bottom: none;
+}
+
+   #main {
+     width: 740px;
+     margin: 0 auto;
+     padding: 0 10px;
+     border: 4px solid white;
+     background: transparent url(fotos/bg_banner.jpg) no-repeat;
+   }
+   
+   #main h1 {
+     color: #FF6600;
+       font-family: "Arial Black", Arial, Helvetica, sans-serif;
+       font-size: 4em;
+   }
+   
+   #main h1 strong {
+     font-size: 150px;
+     color: white;
+     line-height: 1em;
+     margin-right: -1.25em;
+   }
+   
+   
+   #main h2 {
+       font: bold 3.5em "Hoefler Text", Garamond, Times, serif;
+       border-bottom: 1px solid #002D4B;
+       margin-top: 25px;
+   }
+   
+   #main h3 {
+       color: #F60;
+       font-size: 1.9em;
+       font-weight: bold;
+       text-transform: uppercase;
+       margin-top: 25px;
+       margin-bottom: 10px;
+   }
+   
+   #main p {
+       font-size: 1.5em;
+       line-height: 150%;
+       margin-bottom: 10px;
+       margin-left: 150px;
+       margin-right: 50px;
+   }
+   
+   #main p:first-line {
+     font-weight: bold;
+     color: #999;
+   }
+   
+   
+   #resources {
+       margin: 0 0 25px 50px;
+       width: 225px;
+       float: right;
+       padding: 20px;
+       background: #F5EFFB;
+   }
+   
+   #resources h3 {
+       margin-top: 0;
+       color: #002D4B;
+   }
+   
+   #resources li {
+       font-size: 1.5em;
+       border-bottom: 2px;
+       color: #207EBF;
+   }
+   
+   #main .byline {
+     color: #999999;
+       font-size: 1.6em;
+       margin: 5px 0 25px 40px;
+   }
+   
+   #main .byline strong {
+       color: #207EBF;
+       text-transform: uppercase;
+       margin-left: 11px;
+   } 
+
+   #main #legal{
+       margin-top: 15px;
+       padding-top: 5px;
+       border-top: 1px solid #FFF;
+       margin-left: 0px;
+       padding-left: 150px;
+   }
+
+
+   /* */
+
+li a[href$='.zip']{
+    background: url(fotos/word.png) no-repeat right top;
+    border-bottom: none;
+	padding: 5px;
+}
+
+   /*poner icono .doc en la lista despues del texto */
+
+
+li a[href$='.doc']{
+	background: url(fotos/word.png) no-repeat right top;
+    border-bottom: none;
+	padding: 5px;
+}
+
+
+li a[href^='http://'] {
+    background: url(fotos/globe.png) no-repeat right top;
+	padding: 5px;
+    border-bottom: none;
+}
+
+
+li a[href$='.pdf']{
+	background: url(fotos/acrobat.png) no-repeat right top;
+    border-bottom: none;
+	padding: 5px;
+}

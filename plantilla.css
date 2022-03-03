@@ -49,6 +49,8 @@
 	border: 1px solid #000;
     margin: none;
     background-color: transparent;
+    background-image: url(fotos/azul.jpg);
+    background-position: bottom right;
 }
 
 header {
@@ -75,9 +77,8 @@ body {
     background-color: orange;
     height: 50px;
     width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    margin: 100px 100px auto;
+    float: right;
 }
 
 .cuarto {
