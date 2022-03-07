@@ -39,16 +39,43 @@
 h1 {	font-family: Verdana; 
     font-size: 24px;
     color: red;
-    margin-left: 20px;		}
+    margin-left: 20px;		
+}
     
 h2 {	font-family: "Comic Sans MS"; 
     font-size: 18px;
     color: navy;
-    margin-left: 20px;		}
+    margin-left: 20px;		
+}
     
-p { 	font-family: Verdana; 
+p {  
     font-size: 16px; 
-    color: gray;
-    text-align: justify;
     margin-left: 20px;
-    margin-right: 20px;}
+    margin-right: 20px;
+
+}
+
+
+.impar { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-emphasis-color: red;
+
+
+}	
+        
+.par { 
+    font-family: monospace;
+    text-decoration: dotted;
+    text-transform: lowercase;
+    text-align: justify;
+    color:rgb(82, 158, 5);
+
+ }	
+
+#ultimo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 8px;
+    color:#4CAF50;
+}	
