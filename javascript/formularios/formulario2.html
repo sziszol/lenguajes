@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+         <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="botones.css">
+          <link rel="stylesheet" href="formulario2.css">
+          <title>Formulario get</title>
+</head>
+<header>
+    <button class="button"><a href="html.html"  class="active">HTML</a></button>
+    <button class="button button2"><a href="css.html" class="active">CSS</a></button>
+    <button class="button button3"><a href="formularios.html" class="active">Formularios</a></button>
+    <button class="button button4"><a href="??" class="active">Futuro</a></button>
+    <button class="button button5"><a href="???" class="active">sin nombre</a></button>
+</header>
+<body>
+<form action="php/insertar_cv.php" method="get/post">
+    <h1>Rellena tu CV</h1>
+    <fieldset>
+    <legend><h2>Datos personales</h2></legend><br>
+    <div>
+        <label for="provincia" id="provincia">Provincia</label>
+        <form action="/action_page.php">
+            <select id="so" name="so">
+                
+                <option value="" selected=" selected">- selecciona -</option>
+                <option value="Albacete" >Albacete</option>
+                <option value="Murcia">Murcia</option>>
+                <option value="Malaga">Malaga</option>
+                <option value="Sevilla">Sevilla</option>
+                </select>
+          </form>
+    </div><br><br>
+    <div>
+        <form action="../../form-result.php" method="post" target="_blank">
+            <label id="fecha" for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="fechaesperada">
+          
+          </form>
+    </div><br><br>
+    <div>
+        <label id="temas" for="temas de interés">Temas de interés</label>
+        <select id="so3" name=" so3" size="5" multtiple="multiple">
+            <option value="windows" selected=" selected">Programación</option>
+            <option value="admi">Administración de base de datos</option>
+            <option value="Arquitectura">Arquitectura</option>
+            <option value="calidad">Calidad</option>
+            <option value="ERP">ERP</option>
+            <option value="lenguajes">Lenguajes</option>
+            <option value="Bases">Bases</option>
+            </select>
+    </div><br><br>
+    <div>
+    <input type="submit" name="enviar" value="Guardar cambios">
+    <input type="reset" name=" cancelar" value="Borrar los datos incluidos">
+    </div>
+</body>
+</html>

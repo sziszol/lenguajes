@@ -1,0 +1,16 @@
+div {
+    height: 370px;
+    width: 350px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    border-style: groove;
+    border-radius: 9px;
+    border-width: 5px;
+    background-color: bisque;
+}
+
+body {
+    background-color: rgb(77, 77, 52);
+}

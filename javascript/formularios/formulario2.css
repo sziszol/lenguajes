@@ -1,0 +1,14 @@
+#temas {
+    display: flex;
+    align-items: center;
+}
+
+#fecha {
+    display: flex;
+    align-items: center;
+}
+
+#provincia {
+    display: flex;
+    align-items: center;
+}
