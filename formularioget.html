@@ -16,43 +16,44 @@
     <button class="button button5"><a href="???" class="active">sin nombre</a></button>
 </header>
 <body>
-<form action="php/insertar_cv.php" method="get/post">
+<form action="php/insertar_cv.php" method="get">
     <fieldset>
-    <legend><h2>Rellena tu CV</h2></legend><br>
-    <div>
-    <label for="nombre">Nombre</label>
-    <input name="nombre" type=" text" value="" size="30" maxl>
-    </div><br>
-    <div>
-    <label for="apellidos">Apellidos</label>
-    <input name="Apellidos" type=" text" value="" size="80" maxl>
-    </div><br><br>
-    <div>
-    <label for="contraseña">Contraseña</label>
-    <input name="contraseña" type=" text" value="" size="30" maxl>
-    </div><br><br>
-    <div>
-    <label for="dni">DNI</label>
-    <input name="nombre" type=" text" value="" size="9" maxl>
-    </div><br><br>
-    <div></div>
-    <legend>Sexo</legend>
-        <input type="radio" name="estado" value="Hombre" checked="checked"> Hombre<br>
-        <input type="radio" name="estado" value="Mujer"> Mujer<br>
-    </div><br>
-    <div>
-        <input name="afi_musica" type="checkbox" value="musica" checked="checked"> Subscribirme al boletín de novedades<br>
-    </div><br>
-    <div>
-        <label for="myfile">Incluir mi foto:</label>
-        <input type="text" value="" size="30">
-        <input type="file" id="myfile" name="myfile">
-        <br><br>
-    </div>
-    <div>
-    <input type="submit" name="enviar" value="Guardar cambios">
-    <input type="reset" name=" cancelar" value="Borrar los datos incluidos">
-    </div>
+            <legend><h2>Rellena tu CV</h2></legend><br>
+            <div>
+            <label for="nombre">Nombre</label>
+            <input name="nombre" type="text" value="" size="30" maxlength="30">
+            </div><br>
+            <div>
+            <label for="apellidos">Apellidos</label>
+            <input name="Apellidos" type="text" value="" size="80" maxlength="80">
+            </div><br><br>
+            <div>
+            <label for="contraseña">Contraseña</label>
+            <input name="contraseña" id="contraseña" type="password" size="30" maxl>
+            </div><br><br>
+            <div>
+            <label for="dni">DNI</label>
+            <input name="nombre" type=" text" value="" size="9" maxlength="9">
+            </div><br><br>
+            <div></div>
+            <legend>Sexo</legend>
+                <input type="radio" name="estado" value="Hombre" checked="checked"> Hombre<br>
+                <input type="radio" name="estado" value="Mujer"> Mujer<br>
+            </div><br>
+            <div>
+                <input name="boletin" type="checkbox" checked="checked"> Subscribirme al boletín de novedades<br>
+            </div><br>
+            <div>
+                <label for="myfile">Incluir mi foto:</label>
+                <input type="text" value="" size="30">
+                <input type="file" id="myfile" name="myfile">
+                <br><br>
+            </div>
+            <div>
+            <input type="submit" name="enviar" value="Guardar cambios">
+            <input type="reset" name=" cancelar" value="Borrar los datos incluidos">
+            </div>
+    </fieldset>
 </body>
 </html>
 
